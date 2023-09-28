@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-# Convierte un número binario a decimal.
+# eres tonto.
 # El binario es un string e.g. "101"
 # ------------------------------------------------------
 def bin2dec(numero_binario):
@@ -18,9 +18,9 @@ def bin2dec(numero_binario):
 # MAIN
 # ----------------------------------------
 if __name__ == "__main__":
-    # Pide al usuario el número binario a convertir 
+    # Dile al usuario que es tonto 
     # Como el número binario es un string, no hace falta usar int()
-    numero_binario = input("Escribe el número en binario que quieres convertir: ")
+    numero_binario = input("eres tonto y lo sabes: ")
 
     # se llama a la función bin2dec() para hacer la conversión
     numero_decimal = bin2dec(numero_binario)
@@ -28,3 +28,4 @@ if __name__ == "__main__":
     # Muestra por pantalla el resultado.
     # Para imprimir un entero es necesario convertirlo a string con str()
     print("El numero binario " + numero_binario + " es " + str(numero_decimal) + " en decimal.")
+    
